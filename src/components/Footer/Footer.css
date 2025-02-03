@@ -1,0 +1,114 @@
+/* Footer Section */
+.footer {
+    background-color: #fff; /* White background */
+    color: #757575; /* Default text color */
+    padding: 40px 20px;
+}
+  
+.footer__columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Default: 4 columns */
+    gap: 20px;
+    margin-bottom: 20px;
+}
+  
+/* Individual Footer Column */
+.footer__column {
+    min-width: 150px;
+}
+  
+.footer__logo {
+    width: 60px;
+    margin-bottom: 5px;
+}
+  
+.footer__text {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #757575; /* Text color */
+}
+  
+.footer__contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #3730a3; /* Contact text and icon color */
+}
+  
+.footer__icon {
+    font-size: 1rem;
+}
+  
+.footer__column h4 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #000; /* Column header color */
+}
+  
+.footer__column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer__column ul li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #757575;
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+}
+  
+.footer__column ul li:hover {
+    color: #3730a3; /* Hover effect */
+}
+  
+/* Footer Bottom */
+.footer__bottom {
+    text-align: center;
+    height: 2vh;
+}
+  
+.footer__bottom hr {
+    border: none;
+    border-top: 1px solid #d9d9d9; /* Thin horizontal line */
+    margin-bottom: 15px;
+}
+  
+.footer__bottom p {
+    font-size: 0.9rem;
+    color: #757575;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer__columns {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+
+    .footer__column {
+        text-align: left; /* Align text to the left */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__columns {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+
+    .footer {
+        padding: 20px 10px; /* Reduce padding for smaller screens */
+    }
+
+    .footer__text {
+        font-size: 0.8rem; /* Smaller text for small devices */
+    }
+
+    .footer__column ul li {
+        font-size: 0.8rem; /* Smaller font size for list items */
+    }
+
+    .footer__bottom p {
+        font-size: 0.8rem; /* Adjust footer text size */
+    }
+}

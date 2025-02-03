@@ -1,0 +1,110 @@
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: #f9f9f9; /* Optional background color */
+  }
+  
+  .hero__left {
+    max-width: 50%;
+  }
+  
+  .hero__left h1 {
+    font-size: 3.3rem;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .hero__left h1 .highlight {
+    color: #3730a3; /* Highlighted text color */
+  }
+  
+  .hero__left p {
+    font-size: 1.5rem;
+    color: #757575; /* Paragraph text color */
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .hero__images {
+    display: flex;
+    gap: 20px; /* Space between images */
+  }
+  
+  .hero__images img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .hero__images img:hover {
+    opacity: 0.8; /* Add hover effect */
+  }
+  
+  .hero__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+  }
+  
+  .hero__right img {
+    width: 60%; /* Adjust image size */
+    height: auto;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column; /* Stack content vertically */
+      padding: 40px 0; /* Reduce padding */
+      text-align: center; /* Center-align text */
+    }
+  
+    .hero__left, .hero__right {
+      max-width: 100%; /* Use full width */
+    }
+  
+    .hero__left h1 {
+      font-size: 2.5rem; /* Reduce font size for smaller screens */
+    }
+  
+    .hero__left p {
+      font-size: 1.2rem; /* Reduce paragraph font size */
+    }
+  
+    .hero__images {
+      justify-content: center; /* Center the images */
+      gap: 10px; /* Reduce space between images */
+    }
+  
+    .hero__images img {
+      width: 120px; /* Scale down button images */
+    }
+  
+    .hero__right img {
+      width: 70%; /* Adjust hero image size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero__left h1 {
+      font-size: 2rem; /* Further reduce font size */
+    }
+  
+    .hero__left p {
+      font-size: 1rem; /* Further reduce paragraph font size */
+    }
+  
+    .hero__images img {
+      width: 100px; /* Further reduce button size */
+    }
+  
+    .hero__right img {
+      width: 60%; /* Full-width hero image */
+    }
+  }
+  

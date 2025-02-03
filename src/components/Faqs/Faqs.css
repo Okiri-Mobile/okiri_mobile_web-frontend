@@ -1,0 +1,82 @@
+/* FAQs Section Styles */
+.faqs {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .faqs__header h1 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .faqs__header p {
+    font-size: 1.2rem;
+    color: #757575;
+    line-height: 1.5;
+  }
+  
+  .faqs__header .highlight {
+    color: #3730a3; /* Highlight text color */
+    cursor: pointer;
+  }
+  
+  /* Accordion Styles */
+  .faqs__accordion {
+    margin-top: 40px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .faqs__item {
+    border-bottom: 1px solid #e0e0e0; /* Thin bottom border */
+    padding: 15px 0;
+  }
+  
+  .faqs__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  .faqs__icon {
+    color: #757575; /* Icon color */
+    font-size: 1rem;
+  }
+  
+  /* Answer Styles */
+  .faqs__answer {
+    font-size: 0.9rem;
+    color: #757575;
+    line-height: 1.5;
+    overflow: hidden; /* Hides content when closed */
+    height: 0; /* Initial height when closed */
+    transition: height 0.3s ease; /* Smooth height transition */
+  }
+  
+  .faqs__answer p {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .faqs__header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .faqs__header p {
+      font-size: 1rem;
+    }
+  
+    .faqs__accordion {
+      padding: 0 10px;
+    }
+  }
+  

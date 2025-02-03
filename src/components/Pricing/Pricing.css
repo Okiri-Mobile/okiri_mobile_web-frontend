@@ -1,0 +1,76 @@
+/* Pricing Section Styles */
+.pricing {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .pricing__header h1 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .pricing__header h1 .highlight {
+    color: #3730a3; /* Highlight text color */
+  }
+  
+  .pricing__header p {
+    font-size: 1.2rem;
+    color: #757575; /* Subheading text color */
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  
+  /* Images Section */
+  .pricing__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .pricing__image {
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+    margin: 0 30px;
+  }
+  
+  .pricing__image:hover {
+    transform: scale(1.01); /* Slight zoom effect on hover */
+    cursor: pointer;
+  }
+  
+  /* Specific Styling for Left Image */
+  .pricing__image--left {
+    width: 28%; /* Adjust left image size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to left image */
+    /* border: 2px solid #3730a3; Add border to left image */
+    padding: 5px;
+  }
+  
+  /* Specific Styling for Right Image */
+  .pricing__image--right {
+    width: 32%; /* Adjust right image size */
+    opacity: 0.9; /* Slightly reduce opacity */
+    filter: grayscale(30%); /* Apply grayscale filter */
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .pricing__images {
+      flex-direction: column; /* Stack images vertically */
+    }
+  
+    .pricing__image--left {
+      width: 90%; /* Full width for small screens */
+      margin-bottom: 20px;
+    }
+  
+    .pricing__image--right {
+      width: 90%; /* Full width for small screens */
+    }
+  }
+  
