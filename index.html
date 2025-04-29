@@ -479,11 +479,13 @@
       }, 2500);
     });
   </script>
+
+  <!-- /Script for fade up on scroll animation -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      // Select all elements with fade-up class
+    document.addEventListener('DOMContentLoaded', function () {
+
       const fadeElements = document.querySelectorAll('.fade-up');
-      
+
       // Create an Intersection Observer
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -496,15 +498,15 @@
         });
       }, {
         root: null, // viewport
-        threshold: 0.1, // trigger when 10% of the element is visible
-        rootMargin: '-50px' // slightly before element comes into view
+        threshold: 0.1,
+        rootMargin: '-50px'
       });
-      
-      // Observe all fade elements
+
+
       fadeElements.forEach(element => {
         observer.observe(element);
       });
-      
+
       // Fallback for browsers that don't support Intersection Observer
       if (!('IntersectionObserver' in window)) {
         fadeElements.forEach(element => {
