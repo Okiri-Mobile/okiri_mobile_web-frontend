@@ -1,0 +1,3 @@
+[submodule "okiri_mobile_web-frontend"]
+  path = okiri_mobile_web-frontend
+  url = https://github.com/Okiri-Mobile/okiri_mobile_web-frontend.git
