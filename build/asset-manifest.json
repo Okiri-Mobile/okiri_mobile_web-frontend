@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c167b631.css",
+    "main.js": "./static/js/main.576c8862.js",
+    "static/js/453.42fdf217.chunk.js": "./static/js/453.42fdf217.chunk.js",
+    "static/media/pci_CERTIFICATE_OF_COMPLIANCE-Okiri_Mobile_Mar_2025.png": "./static/media/pci_CERTIFICATE_OF_COMPLIANCE-Okiri_Mobile_Mar_2025.c1f798f8bd9d10bc8e1e.png",
+    "static/media/hero-img.png": "./static/media/hero-img.7fbbb2b1525efe1109cf.png",
+    "static/media/1.jpeg": "./static/media/1.37efa7aac82601c90b32.jpeg",
+    "static/media/iMockup-2.png": "./static/media/iMockup-2.566004a1903ed4c1d78a.png",
+    "static/media/iMockup-1.png": "./static/media/iMockup-1.c405aef77b3de69a37f7.png",
+    "static/media/Frame-2.png": "./static/media/Frame-2.aa21b069a476ac5c2443.png",
+    "static/media/Frame-1.png": "./static/media/Frame-1.ad36c244fb436a25eb09.png",
+    "static/media/okiriLogo_square.png": "./static/media/okiriLogo_square.2d49f927e8c7340e2c5e.png",
+    "static/media/apple-store.png": "./static/media/apple-store.2394b44c3569202b2b4d.png",
+    "static/media/Okiri-logo-rmbg.png": "./static/media/Okiri-logo-rmbg.5385486e33ccfb7bca14.png",
+    "static/media/okiri-logo-bw-rmbg.png": "./static/media/okiri-logo-bw-rmbg.ce1fbe289f3d529091f0.png",
+    "static/media/google-play.png": "./static/media/google-play.a33a6c6e61be9ca9059b.png",
+    "static/media/google-play-w.png": "./static/media/google-play-w.73ff6d7514068eaa8b6a.png",
+    "static/media/apple-store-w.png": "./static/media/apple-store-w.8e1206c148a949de4cce.png",
+    "static/media/pcidsscompliance-rmbg.png": "./static/media/pcidsscompliance-rmbg.3cab78fbbc324d1c7e6c.png",
+    "index.html": "./index.html",
+    "main.c167b631.css.map": "./static/css/main.c167b631.css.map",
+    "main.576c8862.js.map": "./static/js/main.576c8862.js.map",
+    "453.42fdf217.chunk.js.map": "./static/js/453.42fdf217.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c167b631.css",
+    "static/js/main.576c8862.js"
+  ]
+}
